@@ -172,7 +172,7 @@ const generateId = (bus) => {
 
 class BusApi {
   static getAllBuses() {
-    return new Promise((resolve, reject) => {
+    return new Promise((resolve) => {
       setTimeout(() => {
         resolve(Object.assign([], buses));
       }, delay);
@@ -207,7 +207,7 @@ class BusApi {
   }
 
   static deleteBus(busId) {
-    return new Promise((resolve, reject) => {
+    return new Promise((resolve) => {
       setTimeout(() => {
         const indexOfBusToDelete = buses.findIndex(bus => {
           bus.busId == busId;
