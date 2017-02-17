@@ -1,8 +1,8 @@
 import React, {PropTypes} from 'react';
 import {connect} from 'react-redux';
-import {bindActionCreators} from 'redux';
+//import {bindActionCreators} from 'redux';
 import BusList from './BusList';
-import {browserHistory } from 'react-router';
+//import {browserHistory } from 'react-router';
 
 class BusesPage extends React.Component {
   constructor(props, context) {
@@ -25,7 +25,7 @@ BusesPage.propTypes = {
   buses: PropTypes.array.isRequired
 };
 
-function mapStateToProps(state, ownProps) {
+function mapStateToProps(state) {
   return {
     buses: state.buses
   };

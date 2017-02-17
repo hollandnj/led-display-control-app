@@ -1,7 +1,7 @@
 import React, {PropTypes} from 'react';
 import {connect} from 'react-redux';
-import {bindActionCreators} from 'redux';
-import {browserHistory } from 'react-router';
+//import {bindActionCreators} from 'redux';
+//import {browserHistory } from 'react-router';
 import DisplayRow from './DisplayRow';
 
 class DisplayPage extends React.Component {

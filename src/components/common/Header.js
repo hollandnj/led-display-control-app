@@ -1,4 +1,4 @@
-import React, {PropTypes} from 'react';
+import React from 'react';
 import { Link, IndexLink } from 'react-router';
 
 const Header = () => {
@@ -7,6 +7,8 @@ const Header = () => {
       <IndexLink to="/" activeClassName="active">Home</IndexLink>
       {" | "}
       <Link to="/buses" activeClassName="active">Buses</Link>
+      {" | "}
+      <Link to="/trains" activeClassName="active">Trains</Link>
       {" | "}
       <Link to="/display" activeClassName="active">Display</Link>
       {" | "}

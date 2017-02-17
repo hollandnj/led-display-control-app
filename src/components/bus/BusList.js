@@ -7,7 +7,7 @@ const BusList = ({buses}) => {
     <table className="table">
       <thead>
         <tr>
-          <th></th>
+          <th/>
           <th>Route Number</th>
           <th>Destination</th>
           <th>Time to arrival</th>

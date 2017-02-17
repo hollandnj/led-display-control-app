@@ -14,7 +14,8 @@ const BusListRow = ({bus, rowNumber}) => {
 };
 
 BusListRow.propTypes = {
-  bus: PropTypes.object.isRequired
+  bus: PropTypes.object.isRequired,
+  rowNumber: PropTypes.number.isRequired
 };
 
 export default BusListRow;
