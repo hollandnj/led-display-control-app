@@ -1,5 +1,4 @@
 export default {
-  buses: [],
-  trains: [],
+  departures: [],
   displayFeed: {}
 };
