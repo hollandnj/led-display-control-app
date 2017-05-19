@@ -11,6 +11,7 @@ const DepartureListRow = ({departure, rowNumber}) => {
       <td>{departure.platformName}</td>
       <td><Link to={'/departure/' + departure.id}>{departure.destinationName}</Link></td>
       <td>{departure.scheduled}</td>
+      <td>{departure.expected}</td>
       <td>{timeMinutes}</td>
     </tr>
   );

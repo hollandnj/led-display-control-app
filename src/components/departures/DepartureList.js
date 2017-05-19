@@ -13,6 +13,7 @@ const DepartureList = ({departures}) => {
           <th>Platform</th>
           <th>Destination</th>
           <th>Scheduled</th>
+          <th>Expected</th>
           <th>Time to arrival</th>
         </tr>
       </thead>

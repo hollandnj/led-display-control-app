@@ -16,16 +16,17 @@ class DisplayPage extends React.Component {
       <div>
         <h1>Display</h1>
         <p>This emulates the LED matrix display</p>
+        <p>and is not complete</p>
         <div className="panel panel-primary">
           <div className="panel-heading">
             <div className="panel-title">
-              <DisplayRow key="a00" text={displayFeed.feed.description} />
+              <DisplayRow key="a00" text={"Description"} />
             </div>
           </div>
           <div className="panel-body">
-          {displayFeed.feed.items.map(item =>
-            <DisplayRow key={item.id} text={`${item.lineName} ${item.destinationName} ${item.expectedArrival}`} />
-          )}
+
+            <DisplayRow key="a01" text ={"Row 1"} />
+            <DisplayRow key="a02" text ={"Row 2"} />
           </div>
         </div>
       </div>

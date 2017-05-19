@@ -7,11 +7,11 @@ class DeparturesApi {
     let stationCode = 'MDS';
     let bus_north_stop_point = '490004960N';
     let bus_south_stop_point = '490020191MU';
-
+//`http://192.168.0.2:5000/api/nre/${stationCode}/list`,
     let urls = [
-      `http://192.168.0.19:5000/api/nre/${stationCode}/list`,
-      `http://192.168.0.19:5000/api/tfl/${bus_north_stop_point}/list`,
-      `http://192.168.0.19:5000/api/tfl/${bus_south_stop_point}/list`
+      `http://192.168.0.2:5000/api/nre/${stationCode}/list`,
+      `http://192.168.0.2:5000/api/tfl/${bus_north_stop_point}/list`,
+      `http://192.168.0.2:5000/api/tfl/${bus_south_stop_point}/list`
     ];
 
     let promise0 = fetch(urls[0])
